@@ -148,6 +148,7 @@ header nav a {
 footer {
     width: 100%;
     background: black;
+    font-weight: bold;
 }
 
 footer nav {
