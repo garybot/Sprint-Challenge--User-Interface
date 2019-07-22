@@ -72,7 +72,7 @@ p {
 }
 
 header {
-    margin: 20px auto;
+    margin: auto;
 }
 
 header nav {
@@ -80,6 +80,7 @@ header nav {
     justify-content: space-between;
     align-items: baseline;
     margin: 40px auto;
+    padding-right: 20px;
 
 }
 
@@ -93,7 +94,7 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-bottom: 1px dashed black;
 }
 
@@ -194,4 +195,43 @@ footer nav a {
 }
 #box10 {
     background-color: dodgerblue;
+}
+
+/* About Specific Styles */
+
+#about {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.content {
+    margin: 20px auto;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: calc(100% * (1/2) - 30px - 1px);
+}
+
+.content img {
+    margin: 10px auto;
+}
+
+.content a {
+    display: inline-block;;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#together {
+    margin-bottom: 40px;
 }
