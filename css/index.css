@@ -226,12 +226,13 @@ footer nav a {
     display: inline-block;;
     text-decoration: none;
     color: black;
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px 20px;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 #together {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
