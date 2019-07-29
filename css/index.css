@@ -238,7 +238,7 @@ footer nav a {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     .top-content {
         flex-direction: column;
     }
@@ -252,5 +252,5 @@ footer nav a {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
+    }*/
 }
