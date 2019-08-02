@@ -71,11 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px auto;
+    padding-right: 20px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-bottom: 1px dashed black;
 }
 
@@ -129,6 +148,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    font-weight: bold;
 }
 
 footer nav {
@@ -143,4 +163,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*Box Colors*/
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* About Specific Styles */
+
+#about {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.content {
+    margin: 20px auto;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: calc(100% * (1/2) - 30px - 1px);
+}
+
+.content img {
+    margin: 10px auto;
+}
+
+.content a {
+    display: inline-block;;
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#together {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .top-content {
+        flex-direction: column;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+    .middle-content .boxes .box {
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
